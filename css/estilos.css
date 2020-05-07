@@ -1,0 +1,155 @@
+body{
+	font-family: times;
+	color:#333;
+	font-size: 1.3rem;
+	line-height: 1.4em;
+	margin:0;}
+header{
+	background: #9ABAF3;
+	color: #fff;
+	font-family: georgia,timess;
+	width:85%;
+	max-width: 1080px;
+	margin:0 auto;
+	font-family: times;
+	font-size: 19px;
+	height:8rem;
+} 
+
+	}
+	.contenedor{
+		margin: 5px auto;
+		background-color:1C126F; }
+
+	.encabezado{
+		background-image: url(../images/title.jpg);
+		width: 85%;
+		max-width: 1080px;
+		background-color:#37EAA1;
+		border-radius: 10px;
+	}
+	 
+
+	 .espacio{
+	 	width: 20%;
+	 	height: 5px;
+	 	margin: 15px auto;
+	 	background-color: #000;
+	 }
+
+	 
+
+	 *{margin:0; padding:0;}
+
+
+	
+
+.wrapper { 
+	width:90%; 
+	max-width:1000px;
+	overflow:hidden; 
+}
+
+header .logo{
+	color:#fff; 
+	font-size:50px; 
+	line-height:50px;
+	float:center;
+
+	}
+.slidein {
+  animation-duration: 8s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;}
+
+
+@keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+  
+  to {
+   margin-left:0%;
+   width:100%;
+ }}
+
+
+header nav {
+	float:right; 
+	line-height:45px; 
+} 
+header nav a{ 
+	display:inline-block; 
+	color:#fff; 
+	text-decoration:none; 
+	padding:8px 20px; 
+	line-height:normal; 
+	font-size:20px; 
+	font-weight:bold; 
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+	border-radius:50px;
+	
+}
+header nav
+a:hover {
+  background-color:#AC58FA ;}
+.main-row{
+	width:85%;
+	max-width: 1080px;
+	margin:0 auto;
+	font-family: times;
+	font-size: 19px
+}
+	.row{
+	width:85%;
+	max-width: 1080px;
+	margin:0 auto;
+	font-family: times;
+	font-size: 19px
+	}
+.subtitle{
+	width:85%;
+	max-width: 1080px;
+	margin:0 auto;
+	font-family: times;
+	font-size: 19px;
+
+
+}
+
+
+h3{font-family: times;
+padding: 2rem;
+text-align:center;}
+h4{
+	font-family: times;
+	text-align:center;
+	background: #EBC5FF;
+	}
+
+.main{
+	background: #ABFF7A
+
+}
+
+
+.color1{
+	background: #ABFF7A;
+	color: #333
+}
+
+aside{
+	background: #EC6361;
+	color: #hff
+}
+
+footer {
+	background: #16a085;
+	color: #fff
+	
+}
+
